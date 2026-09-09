@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html b:css='false' b:defaultmessages='false' b:layoutsVersion='3' b:responsive='true' lang='ar' dir='rtl' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    
+    <title><data:blog.pageTitle/></title>
+    
+    <meta content="الموقع الرسمي لتطبيق Android الرفيق المسلم (Islamic Companion) — رفيقك اليومي الموثوق لأوقات الصلاة، القرآن الكريم، الأذكار، والقبلة." name="description" />
+    <meta content="الرفيق المسلم — Islamic Companion" property="og:title" />
+    <meta content="الموقع الرسمي لتطبيق Android الرفيق المسلم — تجربة إسلامية رقمية هادئة ودقيقة وموثوقة." property="og:description" />
+    <meta content="website" property="og:type" />
+    <meta content="#0B131F" name="theme-color" />
+    
+    <!-- الخطوط الخارجية المعتمدة (Google Fonts) -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&amp;family=Amiri:ital,wght@0,400;0,700;1,400&amp;family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+
+    <!-- وسم سكين بلوجر الإجباري -->
+    <b:skin><![CDATA[
+      /* إعدادات وتصفير أساسي متوافق مع بلوجر وإخفاء عناصر بلوجر الافتراضية */
+      html, body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 100%;
+        min-height: 100%;
+      }
+      .blogger-hidden-area, #b-navbar, .widget-item-control, .quickedit, #navbar-iframe, .status-msg-wrap {
+        display: none !important;
+        visibility: hidden !important;
+        height: 0 !important;
+        width: 0 !important;
+        overflow: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+    ]]></b:skin>
+
+    <!-- مكان حقن أكواد CSS الخاصة بتطبيق React -->
+    <style type='text/css'>
+      /*<![CDATA[*/
+      /* BLOGGER_INJECT_CSS */
+      /*]]>*/
+    </style>
+  </head>
+  <body class="bg-[#FAF9F6] text-[#0F172A] antialiased selection:bg-[#064E3B] selection:text-white">
+    
+    <!-- وسوم وأقسام بلوجر الإجبارية (مخفية لضمان اجتياز متطلبات محرر بلوجر دون التأثير على الواجهة) -->
+    <div class='blogger-hidden-area' style='display:none !important; visibility: hidden !important; opacity: 0 !important; width: 0 !important; height: 0 !important;'>
+      <b:section class='main' id='main' maxwidgets='1' showaddelement='no'>
+        <b:widget id='Blog1' locked='true' title='Blog' type='Blog' version='2'>
+          <b:includable id='main'>
+            <div class='blog-posts'></div>
+          </b:includable>
+        </b:widget>
+      </b:section>
+    </div>
+
+    <!-- حاوية تطبيق React الأساسية -->
+    <div id="root"></div>
+
+    <!-- مكان حقن كود جافاسكريبت المجمع لتطبيق React -->
+    <script type='text/javascript'>
+      //<![CDATA[
+      /* BLOGGER_INJECT_JS */
+      //]]>
+    </script>
+  </body>
+</html>

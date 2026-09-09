@@ -1,0 +1,6 @@
+{
+  "name": "الرفيق المسلم — Islamic Companion",
+  "description": "الموقع الرسمي المعتمد لتطبيق Android: الرفيق المسلم (Islamic Companion) — رفيقك اليومي الموثوق للصلوات، القرآن الكريم، الأذكار، والقبلة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
